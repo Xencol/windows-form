@@ -1,0 +1,10 @@
+C:\Users\luis.mobastos\source\repos\Calculadora composta\bin\Debug\Calculadora composta.exe.config
+C:\Users\luis.mobastos\source\repos\Calculadora composta\bin\Debug\Calculadora composta.exe
+C:\Users\luis.mobastos\source\repos\Calculadora composta\bin\Debug\Calculadora composta.pdb
+C:\Users\luis.mobastos\source\repos\Calculadora composta\obj\Debug\Calculadora composta.csproj.AssemblyReference.cache
+C:\Users\luis.mobastos\source\repos\Calculadora composta\obj\Debug\Calculadora_composta.Form1.resources
+C:\Users\luis.mobastos\source\repos\Calculadora composta\obj\Debug\Calculadora_composta.Properties.Resources.resources
+C:\Users\luis.mobastos\source\repos\Calculadora composta\obj\Debug\Calculadora composta.csproj.GenerateResource.cache
+C:\Users\luis.mobastos\source\repos\Calculadora composta\obj\Debug\Calculadora composta.csproj.CoreCompileInputs.cache
+C:\Users\luis.mobastos\source\repos\Calculadora composta\obj\Debug\Calculadora composta.exe
+C:\Users\luis.mobastos\source\repos\Calculadora composta\obj\Debug\Calculadora composta.pdb
