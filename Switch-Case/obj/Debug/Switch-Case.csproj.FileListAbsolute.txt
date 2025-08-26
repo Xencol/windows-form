@@ -1,0 +1,10 @@
+C:\Users\luis.mobastos\source\repos\Switch-Case\obj\Debug\Switch-Case.csproj.AssemblyReference.cache
+C:\Users\luis.mobastos\source\repos\Switch-Case\obj\Debug\Switch_Case.Form1.resources
+C:\Users\luis.mobastos\source\repos\Switch-Case\obj\Debug\Switch_Case.Properties.Resources.resources
+C:\Users\luis.mobastos\source\repos\Switch-Case\obj\Debug\Switch-Case.csproj.GenerateResource.cache
+C:\Users\luis.mobastos\source\repos\Switch-Case\obj\Debug\Switch-Case.csproj.CoreCompileInputs.cache
+C:\Users\luis.mobastos\source\repos\Switch-Case\bin\Debug\Switch-Case.exe.config
+C:\Users\luis.mobastos\source\repos\Switch-Case\bin\Debug\Switch-Case.exe
+C:\Users\luis.mobastos\source\repos\Switch-Case\bin\Debug\Switch-Case.pdb
+C:\Users\luis.mobastos\source\repos\Switch-Case\obj\Debug\Switch-Case.exe
+C:\Users\luis.mobastos\source\repos\Switch-Case\obj\Debug\Switch-Case.pdb
