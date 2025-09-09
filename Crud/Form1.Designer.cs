@@ -32,7 +32,6 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.tbControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.pbImagem = new System.Windows.Forms.PictureBox();
             this.txtCPF = new System.Windows.Forms.MaskedTextBox();
             this.lblCPF = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -43,12 +42,13 @@
             this.lblNomeCompleto = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.btnRemover = new System.Windows.Forms.Button();
-            this.btnEnviar = new System.Windows.Forms.Button();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.lstCliente = new System.Windows.Forms.ListView();
             this.panelTopo.SuspendLayout();
             this.tbControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImagem)).BeginInit();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTopo
@@ -84,8 +84,6 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Black;
-            this.tabPage1.Controls.Add(this.btnEnviar);
-            this.tabPage1.Controls.Add(this.pbImagem);
             this.tabPage1.Controls.Add(this.txtCPF);
             this.tabPage1.Controls.Add(this.lblCPF);
             this.tabPage1.Controls.Add(this.txtEmail);
@@ -100,14 +98,6 @@
             this.tabPage1.Size = new System.Drawing.Size(768, 250);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Dados do Cliente";
-            // 
-            // pbImagem
-            // 
-            this.pbImagem.Location = new System.Drawing.Point(579, 24);
-            this.pbImagem.Name = "pbImagem";
-            this.pbImagem.Size = new System.Drawing.Size(100, 133);
-            this.pbImagem.TabIndex = 8;
-            this.pbImagem.TabStop = false;
             // 
             // txtCPF
             // 
@@ -176,6 +166,7 @@
             this.txtNomeCompleto.Name = "txtNomeCompleto";
             this.txtNomeCompleto.Size = new System.Drawing.Size(276, 26);
             this.txtNomeCompleto.TabIndex = 1;
+            this.txtNomeCompleto.TextChanged += new System.EventHandler(this.txtNomeCompleto_TextChanged);
             // 
             // lblNomeCompleto
             // 
@@ -190,13 +181,16 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.Black;
+            this.tabPage2.Controls.Add(this.lstCliente);
+            this.tabPage2.Controls.Add(this.btnPesquisar);
+            this.tabPage2.Controls.Add(this.txtBuscar);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(768, 250);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Consulta";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // btnSalvar
             // 
@@ -210,28 +204,33 @@
             this.btnSalvar.UseVisualStyleBackColor = false;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
-            // btnRemover
+            // txtBuscar
             // 
-            this.btnRemover.BackColor = System.Drawing.Color.Black;
-            this.btnRemover.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemover.ForeColor = System.Drawing.Color.Gold;
-            this.btnRemover.Location = new System.Drawing.Point(145, 395);
-            this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(155, 45);
-            this.btnRemover.TabIndex = 3;
-            this.btnRemover.Text = "Remover Dados";
-            this.btnRemover.UseVisualStyleBackColor = false;
+            this.txtBuscar.Location = new System.Drawing.Point(19, 39);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(271, 26);
+            this.txtBuscar.TabIndex = 0;
             // 
-            // btnEnviar
+            // btnPesquisar
             // 
-            this.btnEnviar.BackColor = System.Drawing.Color.Gold;
-            this.btnEnviar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviar.Location = new System.Drawing.Point(579, 178);
-            this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(100, 32);
-            this.btnEnviar.TabIndex = 9;
-            this.btnEnviar.Text = "Enviar";
-            this.btnEnviar.UseVisualStyleBackColor = false;
+            this.btnPesquisar.BackColor = System.Drawing.Color.Gold;
+            this.btnPesquisar.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisar.Location = new System.Drawing.Point(328, 34);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(99, 34);
+            this.btnPesquisar.TabIndex = 1;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = false;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
+            // 
+            // lstCliente
+            // 
+            this.lstCliente.HideSelection = false;
+            this.lstCliente.Location = new System.Drawing.Point(19, 90);
+            this.lstCliente.Name = "lstCliente";
+            this.lstCliente.Size = new System.Drawing.Size(724, 138);
+            this.lstCliente.TabIndex = 2;
+            this.lstCliente.UseCompatibleStateImageBehavior = false;
             // 
             // Form1
             // 
@@ -239,7 +238,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 462);
-            this.Controls.Add(this.btnRemover);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.tbControl);
             this.Controls.Add(this.panelTopo);
@@ -250,7 +248,8 @@
             this.tbControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImagem)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -271,9 +270,9 @@
         private System.Windows.Forms.Label lblCPF;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Button btnSalvar;
-        private System.Windows.Forms.Button btnRemover;
-        private System.Windows.Forms.PictureBox pbImagem;
-        private System.Windows.Forms.Button btnEnviar;
+        private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.ListView lstCliente;
     }
 }
 

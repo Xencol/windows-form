@@ -1,0 +1,11 @@
+C:\Users\luis.mobastos\source\repos\sidebar_menu\bin\Debug\sidebar_menu.exe.config
+C:\Users\luis.mobastos\source\repos\sidebar_menu\bin\Debug\sidebar_menu.exe
+C:\Users\luis.mobastos\source\repos\sidebar_menu\bin\Debug\sidebar_menu.pdb
+C:\Users\luis.mobastos\source\repos\sidebar_menu\obj\Debug\sidebar_menu.csproj.AssemblyReference.cache
+C:\Users\luis.mobastos\source\repos\sidebar_menu\obj\Debug\sidebar_menu.FrmPrincipal.resources
+C:\Users\luis.mobastos\source\repos\sidebar_menu\obj\Debug\sidebar_menu.Properties.Resources.resources
+C:\Users\luis.mobastos\source\repos\sidebar_menu\obj\Debug\sidebar_menu.csproj.GenerateResource.cache
+C:\Users\luis.mobastos\source\repos\sidebar_menu\obj\Debug\sidebar_menu.csproj.CoreCompileInputs.cache
+C:\Users\luis.mobastos\source\repos\sidebar_menu\obj\Debug\sidebar_menu.exe
+C:\Users\luis.mobastos\source\repos\sidebar_menu\obj\Debug\sidebar_menu.pdb
+C:\Users\luis.mobastos\source\repos\sidebar_menu\obj\Debug\sidebar_menu.FrmProdutos.resources

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\luis.mobastos\\source\\repos\\Crud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2BD4A8C-E206-46AE-82CF-6E05A306EEB8}|Crud.csproj|C:\\Users\\luis.mobastos\\source\\repos\\Crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2BD4A8C-E206-46AE-82CF-6E05A306EEB8}|Crud.csproj|c:\\users\\luis.mobastos\\source\\repos\\crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2BD4A8C-E206-46AE-82CF-6E05A306EEB8}|Crud.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2BD4A8C-E206-46AE-82CF-6E05A306EEB8}|Crud.csproj|c:\\users\\luis.mobastos\\source\\repos\\crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E2BD4A8C-E206-46AE-82CF-6E05A306EEB8}|Crud.csproj|C:\\Users\\luis.mobastos\\source\\repos\\Crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E2BD4A8C-E206-46AE-82CF-6E05A306EEB8}|Crud.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,11 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\luis.mobastos\\source\\repos\\Crud\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvwkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAuwNEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T14:14:34.394Z",
               "EditorCaption": ""
